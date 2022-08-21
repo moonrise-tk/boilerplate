@@ -4,7 +4,7 @@ import { build } from "estrella";
 const buildIndex = async () => {
 	decache("./src/index");
 	build({
-		entry: ["./src/index.tsx"],
+		entry: ["./src/index.tsx", "./src/style.css"],
 		outdir: "dist",
 		sourceRoot: "src",
 		bundle: true,
