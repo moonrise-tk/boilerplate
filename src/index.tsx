@@ -17,7 +17,5 @@ function run() {
 
 if (typeof window !== "undefined") {
 	// If in browser context
-	window.addEventListener("load", function () {
-		run();
-	});
+	run();
 }
