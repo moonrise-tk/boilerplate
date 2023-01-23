@@ -1,4 +1,4 @@
-Frontend app boilerplate built with esbuild, typescript, vercel.
+Frontend app boilerplate built with react, typescript, parcel, vercel.
 
 ```
 npm run dev
